@@ -18,9 +18,9 @@ public class BirthdayWishes {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Input the story viewers count > ");
+        System.out.print("Type the story viewers count > ");
         int storyViewers = Integer.parseInt(scanner.nextLine());
-        System.out.print("Input the wishes he received > ");
+        System.out.print("Type the wishes he received > ");
         int wishes = Integer.parseInt(scanner.nextLine());
 
         double result = (double) wishes / storyViewers * 100;
