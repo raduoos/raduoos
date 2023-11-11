@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
+
 
 int main(){
 
@@ -16,16 +16,15 @@ int main(){
     // Write a Java program, that will calculate the percentage of people who wished him.
 
     int storyViewers;
-    cout << "Type the story viewers: ";
-    cin >> storyViewers;
+    printf("Type the story viewers > ");
+    scanf("%d", &storyViewers);
 
     int wishes;
-    cout << "Type the wishes he received: ";
-    cin >> wishes;
+    printf("Type the wishes count > ");
+    scanf("%d", &wishes);
 
-    double result = (double)wishes / storyViewers * 100;
-
-    cout << "The result is: " << result << endl;
+    float result = (float)wishes/storyViewers * 100;
+    printf("%.2f\n", result);
 
     return 0;
 }
