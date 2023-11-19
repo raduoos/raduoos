@@ -1,0 +1,114 @@
+/*Google Fonts API*/
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap');
+
+/*HTML and Body*/
+
+    body{
+        background-color: black;
+        color: white;
+        font-family: poppins;
+        font-weight: 100;
+        letter-spacing: 0.1em;
+        text-transform: lowercase;
+    }
+
+/*NavBar*/
+
+    #navbar{
+        position: sticky;
+	    top: 0;
+
+
+        padding: 0.5px;
+        border: 0px solid black;
+        border-radius: 20px;
+        backdrop-filter: blur(55px);
+    }
+
+/*Titles*/
+
+    .centeredTitle{
+        text-align: center;
+
+    }
+
+/*fieldBox*/
+
+    .fieldBox{
+        padding: 13px;
+        border: 2px solid white;
+        border-radius: 20px;
+        width: 300px;
+        height: auto;
+        display: flex;
+        flex: auto;
+        margin: auto;
+    }
+
+/*Lists*/
+
+    li{
+        list-style-type: none;
+    }
+
+/*Inputs*/
+
+    #name, #email, #comments{
+        padding: 7px;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+
+/*Radios*/
+
+    input[type="radio"] {
+        display: none;
+    }
+
+    input[type="radio"] + label {
+        position: relative;
+        padding-left: 30px;
+        cursor: pointer;
+        display: inline-block;
+        line-height: 20px;
+    }
+
+    input[type="radio"] + label:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 20px; 
+        height: 20px;
+        border: 2px solid #333;
+        border-radius: 50%; 
+        background-color: #fff;
+    }
+
+    input[type="radio"]:checked + label:before {
+        background-color: #3498db;
+        border-color: #3498db;
+    }
+
+/*Drawer*/
+
+    select{
+        border-radius: 20px;
+        padding: 5px;
+    }
+
+    option{
+        border-radius: 20px;
+    }
+
+/*Button*/
+
+    .button{
+        border: 1px solid white;
+        border-radius: 20px;
+        padding: 10px;
+        width: 200px;
+        margin: 5px;
+
+    }

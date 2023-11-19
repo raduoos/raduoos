@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+	
+	<head>
+		<meta charset="utf-8">
+		<title>Forms with PHP</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="style.css">
+	</head>
+	
+	<body>
+		<div id="navbar">
+			<h3 class="centeredTitle">Formulary of contact</h3>
+		</div>
+
+		<div class="formBox">
+			<form id="form-contacto" action="form.php" method="post">
+				<ul>
+					<div class="fieldBox">
+						<li>
+							<label for="name">Name: </label>
+							<br>
+							<input type="text" name="name" id="name" value="" tabindex="2" />
+						</li>
+					</div>
+					
+						<br>
+
+					<div class="fieldBox">
+						<li>
+							<label for="email">E-Mail Address: </label>
+							<br>
+							<input type="email" name="email" id="email" value="" placeholder="user@domain.com" tabindex="3"  />
+						</li>
+					</div>
+
+						<br>
+
+					<div class="fieldBox">
+						<li>
+							<label for="comments">Comments: </label>
+							<br>
+							<textarea name="comments" id="comments" cols="30" rows="6" tabindex="4" /></textarea>
+						</li>
+					</div>	
+					
+						<br>
+					
+					<div class="fieldBox">
+						<li>
+							<label for="favoriteLanguage">Favorite Programming Language</label> 
+								<br>
+							<input type="radio" name="favoriteLanguage" id="JAVA" value="JAVA">
+							<label for="JAVA">JAVA</label>
+								<br>
+							<input type="radio" name="favoriteLanguage" id="C#" value="C#">
+							<label for="C#">C#</label>
+								<br>
+							<input type="radio" name="favoriteLanguage" id="C++" value="C++">
+							<label for="C++">C++</label>
+						</li>
+					</div>	
+					
+						<br>
+
+					<div class="fieldBox">
+						<li>
+							<label for="cars">Select your vehicle:</label>
+		
+							<select name="cars" id="cars">
+								<option value="I don't have">I don't have</option>
+								<option value="Tesla">Tesla</option>
+								<option value="Mercedes">Mercedes</option>
+								<option value="Audi">Audi</option>
+								<option value="Mini">Mini</option>
+								<option value="Volkswagen">Volkswagen</option>
+								<option value="Range Rover">Range Rover</option>
+								<option value="BMW">BMW</option>
+							</select>
+						</li>
+					</div>
+						
+						<br>
+
+					<div class="fieldBox">
+						<li>
+							<label for="email_notifications">Do you want E-mail notifications?</label> 
+								<br>
+							<input type="checkbox" name="email_notifications" id="email_notifications" value="YES" tabindex="5" />
+							<label for="email_notifications">YES</label>
+								<br>
+							<input type="checkbox" name="email_notifications" id="email_notifications" value="NO" tabindex="5" />
+							<label for="email_notifications">NO</label>
+								<br>
+							<input type="checkbox" name="email_notifications" id="email_notifications" value="I don't prefer to say." tabindex="5" />
+							<label for="email_notifications">I don't prefer to say</label>
+						</li>
+					</div>
+
+						<br>
+
+					<div class="fieldBox">
+						<li>
+							<input class="button" type="submit" id="submit" value="Send" tabindex="6" />
+							<br>
+							<input class="button" type="reset" id="reset" value="Reset" tabindex="7" />
+						</li>
+					</div>
+
+				</ul>
+			</form>
+		</div>
+	</body>
+</html>
