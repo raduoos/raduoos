@@ -5,20 +5,16 @@ import java.util.Scanner;
 public class SumNumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int number = Integer.parseInt(scanner.nextLine());
 
-        int small = Integer.MAX_VALUE;
-        int big = Integer.MIN_VALUE;
-        int n = Integer.parseInt(scanner.nextLine());
+        int sum = 0;
 
-        for (int i = 0; i < n; i++) {
-            int num = Integer.parseInt(scanner.nextLine());
-            if (num < small){
-                small = num;
-            } else if (num > big) {
-                big = num;
-            }
+        for (int i = 1; i <= number; i++) {
+            int n = Integer.parseInt(scanner.nextLine());
+            sum += n;
         }
 
-        System.out.println(big + small);
+        System.out.println(sum);
+
     }
 }
