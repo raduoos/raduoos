@@ -1,9 +1,8 @@
 package radostin.school.uf2.Apunts;
 
-public class Methods_5 {
+public class ReturnsChar_3 {
     public static void main(String[] args) {
-        int value = 1;
-        System.out.println(value);
+        System.out.println(returnsChar());
     }
 
     public static char returnsChar(){
