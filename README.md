@@ -6,5 +6,5 @@
 - I’m currently learning Java in School ☕
 - I would like to learn C++, C and Python also! 😄
 - My dream was to work in Amazon 🥹
-- How to reach me: @raduchiii.ryde on Instagram 📫
-- Pronouns: Radu, Radi, Radostin. 😄 
+- How to reach me: @raduoos on Instagram 📫
+- Pronouns: Radu, Radi, Rado, Radostin. 😄 
