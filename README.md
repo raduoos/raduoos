@@ -8,8 +8,8 @@ About me:
 - I'm 19 years old 🔋
 - I’m currently studying Information Technology superior degree for development of multiplatform applications👨‍💻
 - I want to create my own Swiss/German enterprise, called DasRado
-- 
-- In school, I am currently learning:
+
+In school, I am currently learning:
 - **PHP**
 - **JavaScript**
 - **Python**
@@ -22,4 +22,4 @@ About me:
 - **Java**
 - **Kotlin**
 
-- Contact me: @raduoos on Instagram 📫
+Contact me: @raduoos on Instagram 📫
